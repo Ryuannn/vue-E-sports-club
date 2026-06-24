@@ -1,29 +1,15 @@
-# default
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 第五人格电竞社团宣传网站
+## 项目简介
+基于Vue2脚手架独立开发的单页宣传网站，面向院校电竞社团，实现社团展示、活动浏览、赛事回放、线上招新报名完整前端交互。
+## 技术栈
+Vue2 + Vue-Router + Axios + HTML5 + CSS3 + LocalStorage + Flex/Grid
+## 核心功能
+1. 四大业务页面：首页、社团活动、赛事回放、招新报名
+2. 公共组件封装：导航栏、图片容错组件、赛事卡片、双向绑定报名表单
+3. 模拟后端数据：Axios读取本地JSON，LocalStorage持久化报名数据
+4. 移动端响应式适配，电竞风格定制主题配色与异形卡片样式
+## 技术亮点
+嵌套路由无刷新页面切换、v-for数据动态渲染、父子组件通信、表单提交防抖拦截、图片加载异常兜底
+## 本地启动
+1. npm install
+2. npm run serve
